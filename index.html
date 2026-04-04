@@ -7,11 +7,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Rajdhani:wght@500;600;700&family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <!-- Скрываем секции и анимируемые элементы ДО первого paint, чтобы не было белого флеша -->
 <script>document.documentElement.classList.add('js-loading')</script>
-  <script type="module" crossorigin src="/3bgtdev/assets/index-N0NL-QMf.js"></script>
-  <link rel="stylesheet" crossorigin href="/3bgtdev/assets/index-DeyvHz_I.css">
+  <script type="module" crossorigin src="/3bgtdev/assets/index-C_Ed8HQ3.js"></script>
+  <link rel="stylesheet" crossorigin href="/3bgtdev/assets/index-CoEhDVGj.css">
 </head>
 <body>
 
@@ -54,9 +54,16 @@
 
           <div class="hero-products">
             <div class="hero-bottles-row">
-            <div class="product-item" tabindex="0" data-cursor-magnetic>
-              <div class="product-bottle">
-                <img src="/3bgtdev/assets/eznew-v9GShGF4.png" alt="Ежовик" class="product-photo">
+            <div class="product-item" tabindex="0">
+              <div class="product-magnetic" data-cursor-magnetic>
+                <div class="product-bottle">
+                  <img src="/3bgtdev/assets/eznew-v9GShGF4.png" alt="Ежовик" class="product-photo">
+                </div>
+                <div class="bottle-radar" aria-hidden="true">
+                  <span class="bottle-tag bottle-tag--top bottle-tag--lifted">Фокус</span>
+                  <span class="bottle-tag bottle-tag--left">Память</span>
+                  <span class="bottle-tag bottle-tag--right">Баланс</span>
+                </div>
               </div>
               <div class="bottle-info">
                 <div class="bottle-sub-stack">
@@ -67,15 +74,17 @@
                   </p>
                 </div>
               </div>
-              <div class="bottle-radar" aria-hidden="true">
-                <span class="bottle-tag bottle-tag--top bottle-tag--lifted">Фокус</span>
-                <span class="bottle-tag bottle-tag--left">Память</span>
-                <span class="bottle-tag bottle-tag--right">Баланс</span>
-              </div>
             </div>
-            <div class="product-item" tabindex="0" data-cursor-magnetic>
-              <div class="product-bottle">
-                <img src="/3bgtdev/assets/kordnew-D8mXrYrJ.png" alt="Кордицепс" class="product-photo">
+            <div class="product-item" tabindex="0">
+              <div class="product-magnetic" data-cursor-magnetic>
+                <div class="product-bottle">
+                  <img src="/3bgtdev/assets/kordnew-D8mXrYrJ.png" alt="Кордицепс" class="product-photo">
+                </div>
+                <div class="bottle-radar" aria-hidden="true">
+                  <span class="bottle-tag bottle-tag--top bottle-tag--lifted">Энергия</span>
+                  <span class="bottle-tag bottle-tag--left">Сила</span>
+                  <span class="bottle-tag bottle-tag--right">Тонус</span>
+                </div>
               </div>
               <div class="bottle-info">
                 <div class="bottle-sub-stack">
@@ -86,15 +95,17 @@
                   </p>
                 </div>
               </div>
-              <div class="bottle-radar" aria-hidden="true">
-                <span class="bottle-tag bottle-tag--top bottle-tag--lifted">Энергия</span>
-                <span class="bottle-tag bottle-tag--left">Сила</span>
-                <span class="bottle-tag bottle-tag--right">Тонус</span>
-              </div>
             </div>
-            <div class="product-item" tabindex="0" data-cursor-magnetic>
-              <div class="product-bottle">
-                <img src="/3bgtdev/assets/cbdW-BXvLzd94.png" alt="CBD" class="product-photo">
+            <div class="product-item" tabindex="0">
+              <div class="product-magnetic" data-cursor-magnetic>
+                <div class="product-bottle">
+                  <img src="/3bgtdev/assets/cbdW-BXvLzd94.png" alt="CBD" class="product-photo">
+                </div>
+                <div class="bottle-radar" aria-hidden="true">
+                  <span class="bottle-tag bottle-tag--top">Антистресс</span>
+                  <span class="bottle-tag bottle-tag--left bottle-tag--sleep">Сон</span>
+                  <span class="bottle-tag bottle-tag--right">Защита</span>
+                </div>
               </div>
               <div class="bottle-info">
                 <div class="bottle-sub-stack">
@@ -104,11 +115,6 @@
                     <span class="bottle-sub-purpose">Сон и восстановление · антистресс</span>
                   </p>
                 </div>
-              </div>
-              <div class="bottle-radar" aria-hidden="true">
-                <span class="bottle-tag bottle-tag--top">Антистресс</span>
-                <span class="bottle-tag bottle-tag--left bottle-tag--sleep">Сон</span>
-                <span class="bottle-tag bottle-tag--right">Защита</span>
               </div>
             </div>
             </div>
@@ -262,7 +268,7 @@
             <p class="cq-intro-text">Шесть картин современного дня — отметьте те, что знакомы.</p>
             <div class="cq-social-proof-intro">
               <span class="cq-social-proof-ico" aria-hidden="true">
-                <img src="images/icon/users.svg" alt="" width="20" height="20" loading="lazy" decoding="async" >
+                <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20width='512'%20height='512'%20viewBox='0%200%20512%20512'%3e%3cdefs%3e%3cclipPath%20id='canvas-clip'%3e%3crect%20width='512'%20height='512'%20rx='112'%20ry='112'/%3e%3c/clipPath%3e%3c/defs%3e%3crect%20width='512'%20height='512'%20rx='112'%20ry='112'%20fill='%23773818'%20stroke='%23FFFFFF'%20stroke-width='14'%20clip-path='url(%23canvas-clip)'/%3e%3cg%20clip-path='url(%23canvas-clip)'%3e%3cg%20transform='rotate(0,%20256,%20256)'%3e%3cg%20transform='translate(51%2051)%20scale(17.083333333333332%2017.083333333333332)%20translate(0%200)'%3e%3cg%20fill='none'%20stroke='%23FFFFFF'%3e%3cpath%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='2'%20d='M22%2012h-.009m-3.982%200H18m-7.488-4.5h-.01'/%3e%3cpath%20stroke-width='1.5'%20d='M2%2012c0%204.97%203.943%209%208.806%209c2.467%200%204.697-1.037%206.296-2.707c.64-.67.96-1.004.888-1.551c-.073-.547-.537-.821-1.465-1.369l-.758-.447c-2.203-1.3-3.305-1.95-3.305-2.926s1.102-1.627%203.305-2.926l.758-.448c.928-.547%201.392-.82%201.465-1.368c.073-.547-.247-.882-.888-1.551C15.503%204.037%2013.273%203%2010.806%203C5.943%203%202%207.03%202%2012Z'/%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e" alt="" width="20" height="20" loading="lazy" decoding="async" >
               </span>
               <span><strong>78%</strong> находят себя в 4 и больше</span>
             </div>
@@ -281,7 +287,7 @@
             <p class="cq-result-sub" id="cqRSub"></p>
             <div class="cq-social-proof-block" id="cqSpBlock">
               <div class="cq-sp-icon" aria-hidden="true">
-                <img src="images/icon/users.svg" alt="" width="24" height="24" loading="lazy" decoding="async" >
+                <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20width='512'%20height='512'%20viewBox='0%200%20512%20512'%3e%3cdefs%3e%3cclipPath%20id='canvas-clip'%3e%3crect%20width='512'%20height='512'%20rx='112'%20ry='112'/%3e%3c/clipPath%3e%3c/defs%3e%3crect%20width='512'%20height='512'%20rx='112'%20ry='112'%20fill='%23773818'%20stroke='%23FFFFFF'%20stroke-width='14'%20clip-path='url(%23canvas-clip)'/%3e%3cg%20clip-path='url(%23canvas-clip)'%3e%3cg%20transform='rotate(0,%20256,%20256)'%3e%3cg%20transform='translate(51%2051)%20scale(17.083333333333332%2017.083333333333332)%20translate(0%200)'%3e%3cg%20fill='none'%20stroke='%23FFFFFF'%3e%3cpath%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='2'%20d='M22%2012h-.009m-3.982%200H18m-7.488-4.5h-.01'/%3e%3cpath%20stroke-width='1.5'%20d='M2%2012c0%204.97%203.943%209%208.806%209c2.467%200%204.697-1.037%206.296-2.707c.64-.67.96-1.004.888-1.551c-.073-.547-.537-.821-1.465-1.369l-.758-.447c-2.203-1.3-3.305-1.95-3.305-2.926s1.102-1.627%203.305-2.926l.758-.448c.928-.547%201.392-.82%201.465-1.368c.073-.547-.247-.882-.888-1.551C15.503%204.037%2013.273%203%2010.806%203C5.943%203%202%207.03%202%2012Z'/%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e" alt="" width="24" height="24" loading="lazy" decoding="async" >
               </div>
               <div class="cq-sp-text">
                 <strong id="cqSpStrong"></strong>
@@ -579,13 +585,6 @@
         </button>
       </div>
 
-      <button type="button" class="pnl-nav-arrow pnl-nav-arrow--prev" data-pnl-go="0" aria-label="Показать сторону синтетики">
-        <span aria-hidden="true">‹</span>
-      </button>
-      <button type="button" class="pnl-nav-arrow pnl-nav-arrow--next" data-pnl-go="1" aria-label="Показать сторону природы">
-        <span aria-hidden="true">›</span>
-      </button>
-
       <div class="pnl-dots" role="presentation">
         <button type="button" class="pnl-dot is-active" data-pnl-go="0" aria-label="Слайд 1: синтетика" aria-current="true"></button>
         <button type="button" class="pnl-dot pnl-dot--nature" data-pnl-go="1" aria-label="Слайд 2: природа" aria-current="false"></button>
@@ -596,7 +595,6 @@
           <article class="pnl-slide pnl-slide--pharma" id="pnl-slide-pharma" aria-labelledby="pnl-tab-pharma">
             <div class="pnl-slide-bg pnl-lab-grid" aria-hidden="true"></div>
             <div class="pnl-depth pnl-depth--pharma" aria-hidden="true"></div>
-            <span class="pnl-corner-tag">Бизнес-логика</span>
             <div class="pnl-slide-inner">
               <p class="pnl-eyebrow-slide">Синтетика · патентная механика</p>
               <h3 class="pnl-heading" id="pnl-heading-pharma">Почему про грибы вы узнаёте не из телевизора</h3>
@@ -626,13 +624,13 @@
               <blockquote class="pnl-quote pnl-quote--pharma">
                 Мы не против фармы, когда она нужна. Есть состояния, где без неё нельзя. Но <strong>хроническая перегрузка и туман в голове</strong> — не то место, где стоит начинать с тяжёлой артиллерии.
               </blockquote>
+              <span class="pnl-corner-tag">Бизнес-логика</span>
             </div>
           </article>
 
           <article class="pnl-slide pnl-slide--nature" id="pnl-slide-nature" aria-labelledby="pnl-tab-nature">
             <div class="pnl-slide-bg pnl-bio-noise" aria-hidden="true"></div>
             <div class="pnl-depth pnl-depth--nature" aria-hidden="true"></div>
-            <span class="pnl-corner-tag pnl-corner-tag--nature">Логика природы</span>
             <div class="pnl-slide-inner">
               <p class="pnl-eyebrow-slide pnl-eyebrow-slide--nature">Природа · нельзя запатентовать</p>
               <h3 class="pnl-heading pnl-heading--nature">Природа работала тысячи лет до того, как появилась химия</h3>
@@ -662,6 +660,7 @@
               <blockquote class="pnl-quote pnl-quote--nature">
                 «Мы просто вернули организму условия, в которых он <strong>умеет восстанавливаться сам</strong>.»
               </blockquote>
+              <span class="pnl-corner-tag pnl-corner-tag--nature">Логика природы</span>
             </div>
           </article>
         </div>
@@ -676,7 +675,7 @@
     <div class="value-price-intro">
       <span class="value-price-eyebrow">✦ Честный разговор о цене ✦</span>
       <h2 class="section-title" data-anim="fade-down">Дорого? <em>Разберёмся</em></h2>
-      <p class="section-sub" data-anim="fade-up" data-delay="100">Кликните на любое возражение — внутри детальные факты, исследования и расчёты. Никакой воды, только аргументы премиального качества.</p>
+      <p class="section-sub" data-anim="fade-up" data-delay="100">На любое возражение — внутри детальные факты, исследования и расчёты. Никакой воды, только аргументы.</p>
     </div>
 
     <div class="value-price-accordion" id="valuePriceAccordion" data-anim="fade-up" data-delay="160">
@@ -1445,6 +1444,6 @@
 </a>
 
 
-<!-- AOS CSS теперь импортируется в main.js -->
+<!-- AOS CSS теперь импортируется в main.js -->
 </body>
 </html>
