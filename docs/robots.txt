@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ob1keno.github.io/3bgtdev/sitemap.xml
